@@ -1,0 +1,42 @@
+{
+  "name": "tribute-selector",
+  "version": "1.0.0",
+  "description": "App to randomly split party of players into ",
+  "main": "./server/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddai85/tribute-selector.git"
+  },
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon --inspect server/index.js"
+  },
+  "author": "Dan Dai",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0-beta.3",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.9",
+    "react": "^16.2.0",
+    "react-cookie": "1.0.5",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.8",
+    "file-loader": "^1.1.6",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0"
+  }
+}
